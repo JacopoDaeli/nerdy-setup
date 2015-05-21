@@ -10,7 +10,7 @@ Repository containing dotfiles and recommended setup instructions for developmen
     - Install [SourceCode Pro](https://github.com/adobe-fonts/source-code-pro) or the one you prefer
     - Setup ad default in iTerm configuration menu
 
-## Bash Profile
+## Vim 
 
 ```
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
@@ -19,7 +19,7 @@ $ vim
 $ :PluginInstall
 ```
 
-## Vim
+## Bash Profile 
 
 Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
