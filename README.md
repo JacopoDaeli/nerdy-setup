@@ -42,7 +42,7 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 
 ## Homebrew
 
-1. Install [Homebrew](http://brew.sh)
+Install [Homebrew](http://brew.sh). It's awesome!
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
