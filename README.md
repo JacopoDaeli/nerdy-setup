@@ -12,6 +12,8 @@ Repository containing dotfiles and recommended setup instructions for developmen
 
 ## Vim 
 
+Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
+
 ```
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -20,8 +22,6 @@ $ :PluginInstall
 ```
 
 ## Bash Profile 
-
-Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
 ```
 $ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
