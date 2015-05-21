@@ -54,7 +54,6 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 ## Node.js
 
 1. Install [nvm](https://github.com/creationix/nvm). Run `$ brew install nvm`.
-
 2. Install Node.js and io.js  
 
 ```
