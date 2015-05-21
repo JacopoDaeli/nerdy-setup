@@ -36,6 +36,7 @@ $ source ~/.bash_profile
 ```
 # This will install Oh My Fish
 $ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish
+$ mkdir ~/.config && mkdir ~/.config/fish
 $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 
 # This will start fish
