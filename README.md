@@ -7,8 +7,8 @@ Repository containing dotfiles and recommended setup instructions for developmen
 2. Install [solarized](http://ethanschoonover.com/solarized)
 3. Open iTerm and setup solarized as default theme
 4. Customise your default font (optional):
-    - Install [SourceCode Pro](https://github.com/adobe-fonts/source-code-pro) or the one you prefer.
-    - Setup ad default in iTerm configuration menu.
+    - Install [SourceCode Pro](https://github.com/adobe-fonts/source-code-pro) or the one you prefer
+    - Setup ad default in iTerm configuration menu
 
 ## Bash Profile
 
