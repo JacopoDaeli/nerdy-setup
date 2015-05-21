@@ -29,12 +29,11 @@ $ source ~/.bash_profile
 ```
 
 ## Fish
+
 1. Install [Fish](http://fishshell.com/)
 2. Install [Oh My Fish](https://github.com/bpinto/oh-my-fish)
-```
-$ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish
-$ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
-```
+```$ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish```
+```$ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish```
 3. Run `$ fish` to switch from bash to fish
 
 
@@ -46,14 +45,12 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 
 ## Node.js
 
-1. Install **[nvm](https://github.com/creationix/nvm)**  
+1. Install **[nvm](https://github.com/creationix/nvm)**
 ```brew install nvm```
 
 2. Install **Node.js** and **io.js**  
-```
-nvm install node stable
-nvm install iojs latest
+```nvm install node stable```
+```nvm install iojs latest```
 
-# make iojs default
-nvm alias default iojs latest
-```
+```# make iojs default```
+```nvm alias default iojs latest```
