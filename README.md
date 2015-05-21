@@ -45,19 +45,19 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 Install [Homebrew](http://brew.sh). It's awesome!
 
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## Node.js
 
-1. Install **[nvm](https://github.com/creationix/nvm)**brew install nvm```
+1. Install [nvm](https://github.com/creationix/nvm). Run `$ brew install nvm`.
 
-2. Install **Node.js** and **io.js**  
+2. Install Node.js and io.js  
 
 ```
-nvm install node stable
-nvm install iojs latest
+$ nvm install node stable
+$ nvm install iojs latest
 
 # make iojs default
-nvm alias default iojs latest
+$ nvm alias default iojs latest
 ```
