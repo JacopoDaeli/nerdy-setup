@@ -31,12 +31,10 @@ $ source ~/.bash_profile
 ## Fish
 1. Install [Fish](http://fishshell.com/)
 2. Install [Oh My Fish](https://github.com/bpinto/oh-my-fish)
-
 ```
 $ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish
 $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 ```
-
 3. Run `$ fish` to switch from bash to fish
 
 
