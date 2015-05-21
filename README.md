@@ -44,7 +44,9 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 
 1. Install [Homebrew](http://brew.sh)
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ## Node.js
 
