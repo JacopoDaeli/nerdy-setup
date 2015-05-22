@@ -27,9 +27,13 @@ Why aren't you coding with Vim? Vim is the One True Editor. Repent and save your
 ```
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ vim
-$ :PluginInstall
-```
+
+# Open vim
+$ vim 
+ ```
+Run `:PluginInstall` into vim command line.
+
+
 
 ## Bash Profile
 
