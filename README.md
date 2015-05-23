@@ -3,6 +3,7 @@ Repository containing dotfiles and recommended setup instructions for developmen
 
 
 ## iTerm
+
 1. Install [iTerm](https://www.iterm2.com/)
 2. Install [solarized](http://ethanschoonover.com/solarized)
 3. Open iTerm and setup solarized as default theme
@@ -10,9 +11,6 @@ Repository containing dotfiles and recommended setup instructions for developmen
     - Install [SourceCode Pro](https://github.com/adobe-fonts/source-code-pro) or the one you prefer
     - Setup ad default in iTerm configuration menu
 
-<<<<<<< HEAD
-## Vim 
-=======
 
 ## Homebrew
 
@@ -25,40 +23,28 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 
 ## Vim
 
->>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
 ```
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-<<<<<<< HEAD
-## Bash Profile 
-=======
 # Open vim
-$ vim 
+$ vim
  ```
 Run `:PluginInstall` into vim command line.
 
 
-
 ## Bash Profile
 
->>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 ```
 $ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
-<<<<<<< HEAD
-## Homebrew
-Install [Homebrew](http://brew.sh). It's awesome!
-
-```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-=======
 
 ## Tmux
+
 Tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal.
 
 ### Install with Homebrew
@@ -92,6 +78,7 @@ $ ./configure && make
 
 
 ## Fish
+
 1. Install [Fish](http://fishshell.com/)
 2. Install [Oh My Fish](https://github.com/bpinto/oh-my-fish)
 3. Start / Restart fish
@@ -104,10 +91,10 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 
 # This will start fish
 $ fish
->>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 ```
 
 ## Node.js
+
 1. Install [nvm](https://github.com/creationix/nvm). Run `$ brew install nvm`.
 2. Install Node.js and io.js  
 
@@ -119,27 +106,14 @@ $ nvm install iojs latest
 $ nvm alias default iojs latest
 ```
 
-## Fish
-1. Install [Fish](http://fishshell.com/)
-2. Install [Oh My Fish](https://github.com/bpinto/oh-my-fish)
-3. Start / Restart fish
 
-```
-# This will install Oh My Fish
-$ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish
-$ mkdir ~/.config && mkdir ~/.config/fish
-$ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
+## Octave
 
-# This will start fish
-$ fish
-```
-
-## Octave 
 Download and install [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect)
+
 ```
-# Change 3.8.0 with your actual octave version
+# Change `3.8.0` with your actual octave version
 $ sudo ln -sf /usr/local/octave/3.8.0/bin/octave-3.8.0 /usr/local/bin/octave
 $ brew install gnuplot --with-x11
 $ ln -s ~/nerdy-setup-osx/.octaverc ~/.octaverc
 ```
-
