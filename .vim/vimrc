@@ -14,14 +14,17 @@ call vundle#end()
 
 " general
 set nocompatible                       " forget vi compatibility
-set autoindent
+set autoindent                         " Keep indentation from previous line
+set smartindent                        " Automatically inserts indentation in some cases
+set cindent                            " Like smartindent, but stricter and more customisable
 set autoread                           " reload files when changed on disk
 set clipboard=unnamed                  " yank and paste with the system clipboard
 set directory-=.                       " don't store swapfiles in the current directory
 set encoding=utf-8
 
 " tabs & spaces
-set tabstop=4                          " visual spaces after TAB
+set shiftwidth=2                       " Indent by 2 spaces when using >>, <<, == etc.
+set tabstop=2                          " visual spaces after TAB
 set softtabstop=2                      " number of spaces in tab when editing
 set expandtab                          " tabs are spaces
 

@@ -10,27 +10,101 @@ Repository containing dotfiles and recommended setup instructions for developmen
     - Install [SourceCode Pro](https://github.com/adobe-fonts/source-code-pro) or the one you prefer
     - Setup ad default in iTerm configuration menu
 
+<<<<<<< HEAD
 ## Vim 
+=======
+
+## Homebrew
+
+Install [Homebrew](http://brew.sh). It's awesome!
+
+```
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+
+## Vim
+
+>>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
 ```
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ vim
-$ :PluginInstall
-```
 
+<<<<<<< HEAD
 ## Bash Profile 
+=======
+# Open vim
+$ vim 
+ ```
+Run `:PluginInstall` into vim command line.
+
+
+
+## Bash Profile
+
+>>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 ```
 $ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
+<<<<<<< HEAD
 ## Homebrew
 Install [Homebrew](http://brew.sh). It's awesome!
 
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+=======
+
+## Tmux
+Tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal.
+
+### Install with Homebrew
+```
+$ brew install tmux
+```
+
+### Build tmux from a release tarball
+```
+# Install wget if you didn't before
+$ brew install wget
+
+# Download tmux release tarball
+$ wget http://downloads.sourceforge.net/project/tmux/tmux/tmux-2.0/tmux-2.0.tar.gz?r=&ts=1432285840&use_mirror=freefr tmux
+
+# Configure, make and install
+$ cd tmux && ./configure && make
+$ sudo make install
+```
+
+### Build the latest from version control
+```
+# Clone tmux source code
+$ git clone git://git.code.sf.net/p/tmux/tmux-code tmux-tmux-code  tmux
+$ tmux
+
+# Configure, make and install
+$ sh autogen.sh
+$ ./configure && make
+```
+
+
+## Fish
+1. Install [Fish](http://fishshell.com/)
+2. Install [Oh My Fish](https://github.com/bpinto/oh-my-fish)
+3. Start / Restart fish
+
+```
+# This will install Oh My Fish
+$ git clone git://github.com/bpinto/oh-my-fish.git ~/.oh-my-fish
+$ mkdir ~/.config && mkdir ~/.config/fish
+$ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
+
+# This will start fish
+$ fish
+>>>>>>> f205c3d1a061ac1392a5bb2be891e0e335377e72
 ```
 
 ## Node.js
