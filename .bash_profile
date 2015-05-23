@@ -35,3 +35,6 @@ source $(brew --prefix nvm)/nvm.sh
 
 # Ansible
 export ANSIBLE_COW_SELECTION=random
+
+# MATLAB
+export PATH=$PATH:/Applications/MATLAB_R2015a.app/bin

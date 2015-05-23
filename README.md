@@ -11,7 +11,6 @@ Repository containing dotfiles and recommended setup instructions for developmen
     - Setup ad default in iTerm configuration menu
 
 ## Vim 
-
 Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
 ```
@@ -22,10 +21,28 @@ $ :PluginInstall
 ```
 
 ## Bash Profile 
-
 ```
 $ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
 $ source ~/.bash_profile
+```
+
+## Homebrew
+Install [Homebrew](http://brew.sh). It's awesome!
+
+```
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Node.js
+1. Install [nvm](https://github.com/creationix/nvm). Run `$ brew install nvm`.
+2. Install Node.js and io.js  
+
+```
+$ nvm install node stable
+$ nvm install iojs latest
+
+# make iojs default
+$ nvm alias default iojs latest
 ```
 
 ## Fish
@@ -43,24 +60,12 @@ $ cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
 $ fish
 ```
 
-
-## Homebrew
-
-Install [Homebrew](http://brew.sh). It's awesome!
-
+## Octave 
+Download and install [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect)
 ```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Change 3.8.0 with your actual octave version
+$ sudo ln -sf /usr/local/octave/3.8.0/bin/octave-3.8.0 /usr/local/bin/octave
+$ brew install gnuplot --with-x11
+$ ln -s ~/nerdy-setup-osx/.octaverc ~/.octaverc
 ```
 
-## Node.js
-
-1. Install [nvm](https://github.com/creationix/nvm). Run `$ brew install nvm`.
-2. Install Node.js and io.js  
-
-```
-$ nvm install node stable
-$ nvm install iojs latest
-
-# make iojs default
-$ nvm alias default iojs latest
-```
