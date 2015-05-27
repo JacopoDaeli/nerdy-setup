@@ -112,12 +112,15 @@ $ nvm alias default iojs latest
 Download and install:
 - [XQuartz](https://xquartz.macosforge.org/landing/)
 - [AquaTerm](http://sourceforge.net/projects/aquaterm/?source=typ_redirect)
-- [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect).
+- [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect)
 
 Then run:
 ```
 # Change `x.x.x` with your actual octave version
 $ sudo ln -sf /usr/local/octave/x.x.x/bin/octave-x.x.x /usr/local/bin/octave
-$ brew reinstall gnuplot --with-x11 # or with --with-aquaterm
+
+$ brew reinstall gnuplot --with-x11
+# or $ brew reinstall gnuplot --with-aquaterm
+
 $ ln -s ~/nerdy-setup-osx/.octaverc ~/.octaverc
 ```
