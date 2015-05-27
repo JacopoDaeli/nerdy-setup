@@ -1,1 +1,6 @@
-setenv("GNUTERM","X11")
+# ~/.octaverc
+setenv ("GNUTERM", "X11")
+
+# below is optional; changes the prompt to two chevron
+# and gets rid of the long Octave x.x.x >> prompt
+PS1('❯❯ ')

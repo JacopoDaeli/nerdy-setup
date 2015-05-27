@@ -109,11 +109,18 @@ $ nvm alias default iojs latest
 
 ## Octave
 
-Download and install [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect)
+Install `Xcode` and the `Command Line Tools`. Once you’ve installed Xcode, you can install Command Line Tools in `Xcode > Preferences > Downloads`.
 
+Download and install [XQuartz](https://xquartz.macosforge.org/landing/), so go ahead and download and install that now.
+
+Download and install [AquaTerm](http://sourceforge.net/projects/aquaterm/?source=typ_redirect).
+
+Download and install [Octave](http://sourceforge.net/projects/octave/?source=typ_redirect).
+
+Next, open up a Terminal and do the following:
 ```
-# Change `3.8.0` with your actual octave version
-$ sudo ln -sf /usr/local/octave/3.8.0/bin/octave-3.8.0 /usr/local/bin/octave
-$ brew install gnuplot --with-x11
+# Change `x.x.x` with your actual octave version
+$ sudo ln -sf /usr/local/octave/x.x.x/bin/octave-x.x.x /usr/local/bin/octave
+$ brew reinstall gnuplot --with-aquaterm --with-x11
 $ ln -s ~/nerdy-setup-osx/.octaverc ~/.octaverc
 ```
