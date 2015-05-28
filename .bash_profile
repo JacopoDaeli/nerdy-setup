@@ -1,4 +1,5 @@
 # Environment configuration
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export NODE_ENV=development
 export EDITOR=$(which vim)
 
@@ -32,6 +33,10 @@ fi
 # Node.js
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# Python
+export PYTHONDONTWRITEBYTECODE=1
+alias pyclean='find . -name '*.pyc' -delete'
 
 # Ansible
 export ANSIBLE_COW_SELECTION=random

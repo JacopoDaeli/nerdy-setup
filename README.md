@@ -20,12 +20,21 @@ Install [Homebrew](http://brew.sh). It's awesome!
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+## Bash Profile
+
+```
+$ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
+$ source ~/.bash_profile
+```
+
 
 ## Vim
 
 Why aren't you coding with Vim? Vim is the One True Editor. Repent and save yourselves.
 
 ```
+$ brew install vim
+# Close your terminal and reopen it
 $ ln -s /path/to/nerdy-setup-osx/.vim ~/.vim
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
@@ -33,14 +42,6 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ vim
  ```
 Run `:PluginInstall` into vim command line.
-
-
-## Bash Profile
-
-```
-$ ln -s /path/to/nerdy-setup-osx/.bash_profile ~/.bash_profile
-$ source ~/.bash_profile
-```
 
 
 ## Tmux
