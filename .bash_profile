@@ -19,6 +19,7 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias vi='vim'
+alias clc='clear all'
 
 # Open directory in OS X Finder
 finder() {
