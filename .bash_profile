@@ -23,6 +23,7 @@ alias clc='clear all'
 alias gst='git status'
 alias grs='git remote show origin'
 alias ga='git add .'
+alias at='atom .'
 
 # Open directory in OS X Finder
 finder() {
