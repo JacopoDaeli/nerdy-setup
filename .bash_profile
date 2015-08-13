@@ -20,6 +20,9 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias vi='vim'
 alias clc='clear all'
+alias gst='git status'
+alias grs='git remote show origin'
+alias ga='git add .'
 
 # Open directory in OS X Finder
 finder() {
